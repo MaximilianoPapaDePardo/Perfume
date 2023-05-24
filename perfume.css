@@ -1,0 +1,162 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("banner.avif");
+    color: white;
+}
+
+h1, h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/* Encabezado */
+header {background-image: url("superficie-marmol-blanco-negro-fondo-textura-marmol_186931-432.avif");
+    
+    padding: 20px;
+    text-align: center;
+    color: black;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Banner principal */
+#banner {
+    background-image: url("banner.avif");
+    
+}
+.perfume-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.perfume-image img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid;
+}
+
+/* Estilos para la sección de Misión */
+#mission .mission-container {
+    background-color: #000000;
+    padding: 40px;
+}
+
+/* Estilos para la sección de Visión */
+#vision .vision-container {
+    background-color: #403e3e;
+    padding: 40px;
+}
+
+/* Estilos para la sección de Valores */
+#values .values-container {
+    background-color: #cbc5c5;
+    padding: 40px;
+    color: black;
+}
+#features{
+    text-align: center;
+}
+.text{
+    background-image: url("superficie-marmol-blanco-negro-fondo-textura-marmol_186931-432.avif");
+    padding: 10px; /* Espacio alrededor del texto */
+    color: black;
+}
+/* Estilos para el footer */
+footer {
+    background-image: url("superficie-marmol-blanco-negro-fondo-textura-marmol_186931-432.avif");
+    color: rgb(0, 0, 0);
+    padding: 40px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-container {
+    width: 30%;
+}
+
+.section-container h2 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.section-container p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.section-container ul {
+    list-style: disc;
+    padding-left: 20px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h3{
+    color: black;
+}
+.slideshow-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .slide {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .mySlides {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .w3-button {
+    position: absolute;
+    bottom: 10px;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .w3-display-left {
+    left: 10px;
+  }
+  
+  .w3-display-right {
+    right: 10px;
+  }
+  
+
+
+/* Otros estilos */
+/* Agrega aquí los estilos adicionales que desees aplicar a otros elementos de la página */
+
+

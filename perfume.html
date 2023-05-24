@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Perfume Exquisito</title>
+    <link rel="stylesheet" type="text/css" href="perfume.css">
+</head>
+<body>
+    <header>
+      <img src="FORNS__1_-removebg-preview.png" alt="forns" height="300px" width="auto">
+        <nav>
+            <ul>
+                <li><a href="acercade.html">Acerca de</a></li>
+                <li><a href="caracteristicas.html">Características</a></li>
+                <li><a href="objetivos.html">Objetivos</a></li>
+                <li><a href="Fundadores.html">Fundadores</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+
+    <section id="banner">
+        <h2>¡Descubre la esencia de la elegancia!</h2>
+       
+    </section>
+
+    
+        
+        <div class="slideshow-container">
+        <img class="mySlides" src="hombreperfume.jpeg" alt="hombre" he>
+        <img class="mySlides" src="IMG_4955.jpg" alt="potro" height="300px" width="auto">
+        <img class="mySlides" src="IMG_4956.jpg" alt="potro" height="400px" width="auto">
+        <img class="mySlides" src="PHOTO-2023-05-21-13-59-31.jpg" height="400px" width="auto">
+
+        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+</div>
+
+
+    
+
+
+    <footer>
+        <p>&copy; 2023 Perfume Exquisito. Todos los derechos reservados.</p>
+    </footer>
+</body>
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</html>

@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("banner.avif");
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.founders-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+   background-image: url("superficie-marmol-blanco-negro-fondo-textura-marmol_186931-432.avif");
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.founders-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.founders-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.founders-image img {
+    max-width: 400px;
+    border-radius: 50%;
+}
+
+.founders-names {
+    text-align: center;
+}
+
+.founder-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
